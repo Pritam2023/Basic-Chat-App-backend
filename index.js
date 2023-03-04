@@ -30,7 +30,7 @@ const server = app.listen(PORT, () =>
 );
 const io = socket(server, {
   cors: {
-    origin: "http://pritam-chat-app.netlify.app",
+    origin: "https://jade-salmon-robe.cyclic.app/auth",
     credentials: true,
   },
 });
