@@ -33,7 +33,7 @@ const server = app.listen(PORT, () =>
 );
 const io = socket(server, {
   cors: {
-    origin: "https://jade-salmon-robe.cyclic.app/auth",
+    origin: "http://localhost:3000",
     credentials: true,
   },
 });
